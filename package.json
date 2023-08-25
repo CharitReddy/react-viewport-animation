@@ -1,7 +1,6 @@
 {
   "name": "react-viewport-animation",
-  "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "A react library to add animations to elements when they appear on viewport",
   "repository": {
@@ -56,13 +55,13 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/react-vite-library.es.js",
-      "require": "./dist/react-vite-library.umd.js"
+      "import": "./dist/react-viewport-animation.es.js",
+      "require": "./dist/react-viewport-animation.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "main": "./dist/react-vite-library.umd.js",
-  "module": "./dist/react-vite-library.es.js",
+  "main": "./dist/react-viewport-animation.umd.js",
+  "module": "./dist/react-viewport-animation.es.js",
   "types": "./dist/index.d.ts",
   "bugs": {
     "url": "https://github.com/CharitReddy/react-viewport-animation/issues"
