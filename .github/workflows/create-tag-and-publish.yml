@@ -1,4 +1,4 @@
-name: Generate tag version
+name: Generate tag version and Publish to npm
 on:
   workflow_dispatch:
     inputs:
