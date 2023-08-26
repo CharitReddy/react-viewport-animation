@@ -5,7 +5,7 @@
   "description": "A react library to add animations to elements when they appear on viewport",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CharitReddy/react-viewport-animation"
+    "url": "https://github.com/kagithapk/react-viewport-animation"
   },
   "scripts": {
     "dev": "vite",
@@ -64,8 +64,8 @@
   "module": "./dist/react-viewport-animation.es.js",
   "types": "./dist/index.d.ts",
   "bugs": {
-    "url": "https://github.com/CharitReddy/react-viewport-animation/issues"
+    "url": "https://github.com/kagithapk/react-viewport-animation/issues"
   },
-  "homepage": "https://github.com/CharitReddy/react-viewport-animation#readme",
+  "homepage": "https://github.com/kagithapk/react-viewport-animation#readme",
   "license": "MIT"
 }
