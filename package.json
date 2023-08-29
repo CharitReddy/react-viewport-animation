@@ -67,5 +67,8 @@
     "url": "https://github.com/kagithapk/react-viewport-animation/issues"
   },
   "homepage": "https://github.com/kagithapk/react-viewport-animation#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
