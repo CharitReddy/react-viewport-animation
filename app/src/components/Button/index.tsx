@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { useAnimate } from 'src/hooks';
+import { useAnimate } from 'react-viewport-animation';
 import './style.css';
 
 export interface ButtonProps {
