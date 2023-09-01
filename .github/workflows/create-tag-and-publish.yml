@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: lib
+        working-directory: '${{ github.workspace }}/lib'
     steps:
       - uses: actions/checkout@v3
         with:
