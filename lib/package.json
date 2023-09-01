@@ -13,8 +13,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "lint:fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'",
-    "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc",
-    "prepare": "husky install"
+    "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc"
   },
   "peerDependencies": {
     "react": "^18.2.0",
@@ -30,7 +29,6 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.2",
     "typescript": "^5.0.2",
@@ -38,17 +36,6 @@
     "vite-plugin-dts": "^3.5.2",
     "vite-plugin-linter": "^2.0.5",
     "vite-tsconfig-paths": "^4.2.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "npm run lint:fix",
-      "npm run format"
-    ]
   },
   "files": [
     "dist"
@@ -67,5 +54,8 @@
     "url": "https://github.com/kagithapk/react-viewport-animation/issues"
   },
   "homepage": "https://github.com/kagithapk/react-viewport-animation#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
