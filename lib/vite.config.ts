@@ -37,6 +37,11 @@ export default defineConfig((configEnv) => ({
       },
     },
   },
+  resolve: {
+    alias: {
+      src: resolve('src'),
+    },
+  },
   server: {
     port: 3000,
   },
