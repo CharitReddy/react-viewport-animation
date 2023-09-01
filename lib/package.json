@@ -1,6 +1,6 @@
 {
   "name": "react-viewport-animation",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "type": "module",
   "description": "A react library to add animations to elements when they appear on viewport",
   "repository": {
